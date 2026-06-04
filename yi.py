@@ -5,3 +5,6 @@ k=6
 ho=744
 fln=52
 nalvkn=886
+ohjo=542
+print(6+5)
+
