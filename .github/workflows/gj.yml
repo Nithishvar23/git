@@ -1,9 +1,15 @@
-name : Nithi
-on :
-  push :
-  branches :
+name: My First Workflow
+
+on:
+  push:
+    branches:
       - main
-jobs :
-  suma 
-steps :
-  runs : echo : <"Hello">
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+      - name: Print Message
+        run: echo "Hello GitHub Actions!"
