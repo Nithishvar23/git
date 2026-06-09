@@ -1,0 +1,9 @@
+name : Nithi
+on :
+  push :
+  branches :
+      - main
+jobs :
+  suma 
+steps :
+  runs : echo : <"Hello">
