@@ -6,6 +6,6 @@ COPY . .
 
 RUN pip install -r Requirements.txt
 
-EXPOSE 8501
+EXPOSE 8777
 
 CMD ["python", "web.py"]
